@@ -1,5 +1,5 @@
 {
-  "name": "authentication-api",
+  "name": "authentication",
   "version": "1.0.0",
   "description": "authentication microservice",
   "main": "./dist/index.js",
@@ -11,16 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbreskovit/authentication-api.git"
+    "url": "git+https://github.com/dbreskovit/user-authentication.git"
   },
   "author": "Diego Breskovit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dbreskovit/authentication-api/issues"
+    "url": "https://github.com/dbreskovit/user-authentication/issues"
   },
-  "homepage": "https://github.com/dbreskovit/authentication-api#readme",
+  "homepage": "https://github.com/dbreskovit/user-authentication#readme",
   "devDependencies": {
     "@types/express": "^4.17.15",
+    "@types/jsonwebtoken": "^9.0.1",
     "@types/node": "^18.11.18",
     "@types/pg": "^8.6.6",
     "dotenv": "^16.0.3",
@@ -30,6 +31,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
     "pg": "^8.8.0"
   }
 }
